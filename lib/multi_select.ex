@@ -36,7 +36,7 @@ defmodule Phoenix.LiveView.Components.MultiSelect do
       selected: false
 
     @type t :: %__MODULE__{
-      id:       integer,
+      id:       integer | String.t,
       label:    String.t,
       selected: boolean
     }
